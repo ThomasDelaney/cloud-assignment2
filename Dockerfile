@@ -3,7 +3,7 @@
 # Based on Ubuntu
 ############################################################
 # Set the base image to Ubuntu
-FROM boot2docker/boot2docker
+FROM ubuntu:latest
 # File Author / Maintainer
 MAINTAINER Thomas Delaney
 Label org.label-schema.group="monitoring"
